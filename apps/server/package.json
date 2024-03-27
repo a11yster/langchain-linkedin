@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/google-genai": "^0.0.2",
+    "@supabase/supabase-js": "^2.39.0",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "langchain": "^0.0.207",
+    "nodemon": "^3.0.2",
+    "pollinator": "^0.3.2",
+    "puppeteer": "^21.11.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}

@@ -1,0 +1,53 @@
+#extension {
+  padding: 10px 4px 16px 4px;
+  background-color: #ffffff;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.extension-wrapper {
+  flex: 1;
+}
+
+button {
+  font-family: inherit;
+  border: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+header h2 {
+  background-color: #000;
+  /* color: hsla(216,100%,46%,1); */
+  margin: 0;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  height: 2rem;
+  justify-content: space-between;
+  border-radius: 4px;
+}
+
+header p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.icons {
+  margin: 0;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}

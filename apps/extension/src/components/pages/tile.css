@@ -1,0 +1,57 @@
+.tile {
+  height: 58px;
+  width: 100%;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 16px;
+  background-color: rgba(194, 218, 255, 1);
+  color: rgba(0, 100, 254, 0.8);
+  border-radius: 8px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.tile-data-list {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.tile.text {
+  justify-content: center;
+}
+
+.tile.text > .tile-icon {
+  position: absolute;
+  left: 3rem;
+}
+
+a.tile,
+button.tile {
+  transition: all 0.25s;
+}
+
+a.tile:hover,
+button.tile:hover {
+  background-color: #ebebeb;
+}
+
+.tile-data-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: fit-content;
+  height: 32px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.tiles-container {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  gap: 24px;
+}

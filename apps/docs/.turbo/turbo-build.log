@@ -1,0 +1,13 @@
+
+> docs@0.0.0 build
+> tsc && vite build
+
+vite v5.0.10 building for production...
+transforming...
+✓ 8 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                 0.46 kB │ gzip: 0.30 kB
+dist/assets/index-KiTmfoTK.css  1.22 kB │ gzip: 0.64 kB
+dist/assets/index-ZXCwO9ua.js   3.06 kB │ gzip: 1.64 kB
+✓ built in 223ms
